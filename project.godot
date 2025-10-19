@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Bang! Bang!"
-run/main_scene="uid://d3qfbx4k4t1wx"
+run/main_scene="uid://bwg6yrytoho8q"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 

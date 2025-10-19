@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwg6yrytoho8q"]
+
+[ext_resource type="PackedScene" uid="uid://c21sxqtlck8hr" path="res://scene/room.tscn" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://b42tydgv8u36" path="res://scene/player.tscn" id="2_h2yge"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMapLayer" parent="." instance=ExtResource("1_0xm2m")]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_h2yge")]
